@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Customer Support Assistant Test</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+      background: #f8fafc;
+      color: #111827;
+    }
+
+    .site-header {
+      background: #111827;
+      color: white;
+      padding: 22px 30px;
+    }
+
+    .site-header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .site-header p {
+      margin: 6px 0 0;
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+
+    .hero {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 90px 30px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #ede9fe;
+      color: #6d28d9;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      margin: 0;
+      max-width: 700px;
+      font-size: 48px;
+      line-height: 1.1;
+      color: #111827;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin-top: 22px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #475569;
+    }
+
+    .info-card {
+      margin-top: 35px;
+      max-width: 700px;
+      padding: 25px;
+      border-radius: 18px;
+      background: white;
+      border: 1px solid #e2e8f0;
+      box-shadow:
+        0 10px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    .info-card h3 {
+      margin-top: 0;
+      color: #111827;
+    }
+
+    .info-card ul {
+      margin-bottom: 0;
+      padding-left: 20px;
+      color: #475569;
+      line-height: 1.9;
+    }
+
+    .test-note {
+      margin-top: 30px;
+      padding: 18px;
+      border-radius: 12px;
+      background: #f5f3ff;
+      border: 1px solid #ddd6fe;
+      color: #5b21b6;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding: 60px 20px;
+      }
+
+      .hero h2 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1>Customer Support Website</h1>
+
+    <p>
+      BizPilot AI — Second Widget Test
+    </p>
+  </header>
+
+  <main class="hero">
+
+    <span class="badge">
+      Customer Support Assistant
+    </span>
+
+    <h2>
+      Welcome to our customer support center
+    </h2>
+
+    <p>
+      This is a second simulated customer website
+      used to test a separate BizPilot AI chatbot
+      widget.
+    </p>
+
+    <div class="info-card">
+
+      <h3>
+        How this test works
+      </h3>
+
+      <ul>
+        <li>
+          This website represents a different customer
+          website.
+        </li>
+
+        <li>
+          It uses the second BizPilot chatbot widget.
+        </li>
+
+        <li>
+          The widget has its own configuration and
+          widget ID.
+        </li>
+
+        <li>
+          The widget should only work when this domain
+          is included in its allowed domains.
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="test-note">
+      <strong>Testing note:</strong>
+      After creating the second widget in the BizPilot
+      dashboard, replace the widget ID at the bottom
+      of this file with the new widget ID.
+    </div>
+
+  </main>
+
+  <!-- =====================================================
+       BIZPILOT SECOND WIDGET
+       ===================================================== -->
+
+  <script
+    src="http://localhost:3000/widget.js"
+    data-widget-id="REPLACE_WITH_SECOND_WIDGET_ID">
+  </script>
+
+</body>
+</html>
